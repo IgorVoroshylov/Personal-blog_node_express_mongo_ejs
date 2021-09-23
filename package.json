@@ -1,0 +1,35 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "study node",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "npm"
+  ],
+  "author": "Voroshilov Igor",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.0.6",
+    "morgan": "^1.10.0"
+  },
+  "engines": {
+    "node": "15.11.0"
+  }
+}
